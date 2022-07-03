@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e70dac8056.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- QUI VA UN SOCIAL MENU + TEL/EMAIL CON SFONDO MAIN COLOR -->
+        <div class="pre-nav">
+            <div class="social">
+                <a href="https://www.facebook.com/ElisabettaC77/" target="_blank" class="s-menu"><i
+                        class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="https://twitter.com/elicawebdesign" target="_blank" class="s-menu"><i
+                        class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="https://github.com/ElisabettaCarrara" target="_blank" class="s-menu"><i
+                        class="fa-brands fa-github"></i>GitHub</a>
+                <a href="https://codepen.io/ElisabettaC77" target="_blank" class="s-menu"><i
+                        class="fa-brands fa-codepen"></i>CodePen</a>
+            </div>
+            <address class="get-in-touch">
+                <a href="mailto:elisabetta.marina.clelia@gmail.com">Scrivici!</a>
+                <a href="tel:+393881237438">Chiamaci!</a>
+            </address>
+        </div>
+        <!-- QUI VA IL LOGO CON A LATO UN FORM DI REGISTRAZIONE ALLA NEWSLETTER CON CAMPO EMAIL -->
+        <div class="site-identity">
+            <img src="./assets/img/woodmart.png" class="logo" alt="logo" />
+            <div class="newsletter">
+                <p>Iscriviti alla Newsletter!</p>
+                <form action="#">
+                    <div>
+                        <label for="name">Name:</label><br />
+                        <input type="text" id="name" name="name" /><br />
+                    </div>
+                    <div>
+                        <label for="posta">E-mail:</label><br />
+                        <input type="email" id="email" name="email" />
+                    </div>
+                    <div><input type="submit" value="Submit" /></div>
+                </form>
+            </div>
+        </div>
+        <nav class="navbar">
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li class="services">
+                        <a href="#products">Prodotti</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="#prod-1">Prodotto 1 </a></li>
+                            <li><a href="#prod-2">Prodotto 2</a></li>
+                            <li><a href="#prod-3">Prodotto 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="services">
+                        <a href="#categories">Categorie</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="#cat-1">Categoria 1 </a></li>
+                            <li><a href="#cat-2">Categoria 2</a></li>
+                            <li><a href="#cat-3">Categoria 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#cart">Carrello</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="fig" id="hero">
+            <div class="blocco_immagine_testo">
+                <div class="contenuto-figura"></div>
+                <div class="contenuto">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+                        distinctio!
+                    </p>
+                    <div class="bottone">
+                        <a href="#">Lorem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+            PRODOTTI - box flex
+        -->
+        <section class="merce" id="prodotti">
+            <h1>i nostri prodotti</h1>
+            <h5>lorem lorem</h5>
+            <div class="container">
+                <!--box inizio-->
+                <div class="single-box" id="prod-1">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+                <!--box inizio-->
+                <div class="single-box" id="prod-2">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+                <!--box inizio-->
+                <div class="single-box" id="prod-3">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+            </div>
+        </section>
+
+        <!-- qui voglio inserire una immagine su sfondo bianco per poter impostare
+            uno sfondo sotto le card con il colore di sfondo del menu -->
+
+        <section class="cta-blog" id="blog">
+            <div class="sfondo">
+                <div class="testo">
+                    <h1>lorem ipsum</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+                        illo, ad saepe debitis cupiditate porro vel aliquid.
+                    </p>
+                    <div class="bottone">
+                        <a href="#">Lorem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+            CATEGORIE - box flex
+        -->
+        <section class="merce" id="categorie">
+            <h1>Le Nostre Categorie</h1>
+            <h5>lorem lorem</h5>
+            <div class="container">
+                <!--box inizio-->
+                <div class="single-box" id="cat-1">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+                <!--box inizio-->
+                <div class="single-box" id="cat-2">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+                <!--box inizio-->
+                <div class="single-box" id="cat-3">
+                    <img src="./assets/img/sediaverde1.png" alt="sedia" class="vista-prod">
+                    <div>
+                        <h1>lorem ipsum dolor sit</h1>
+                        <h5>lorem lorem</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                            cum. Quia sunt molestiae, inventore officiis repellendus iste
+                            tenetur?
+                        </p>
+                        <div class="bottone">
+                            <a href="#">Lorem</a>
+                        </div>
+                    </div>
+                </div>
+                <!--box fine-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="pre-footer">
+            <div class="social-foot">
+                <a href="https://www.facebook.com/ElisabettaC77/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="https://twitter.com/elicawebdesign" target="_blank"><i
+                        class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="https://github.com/ElisabettaCarrara" target="_blank"><i
+                        class="fa-brands fa-github"></i>GitHub</a>
+                <a href="https://codepen.io/ElisabettaC77" target="_blank"><i
+                        class="fa-brands fa-codepen"></i>CodePen</a>
+            </div>
+            <address class="get-in-touch-foot">
+                <a href="mailto:elisabetta.marina.clelia@gmail.com">Scrivici!</a>
+                <a href="tel:+393881237438">Chiamaci!</a>
+            </address>
+        </div>
+        <div class="footer">
+            <p>&copy; Carrara Elisabetta 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
